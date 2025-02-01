@@ -1,0 +1,11 @@
+__pycache__/
+trained/model_0.pth
+trained/model_1.pth
+trained/model_2.pth
+trained/model_3.pth
+trained/model_4.pth
+trained/model_5.pth
+trained/model_6.pth
+trained/model_7.pth
+dataset/ML_Model.ipynb
+drive-download-20250131T180540Z-001.zip
