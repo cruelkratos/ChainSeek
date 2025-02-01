@@ -14,6 +14,8 @@ Group Members (in alphabetical order)
 | 3.    | Kunal Bansal     | fr092          |
 | 4.    | Mmukul Khedekar  | fooker         |
 
+[https://github.com/cruelkratos/ChainSeek/blob/main/design.png]
+
 # Requirements
 - Nodejs 
 - Python (3.10)
