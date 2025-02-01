@@ -18,6 +18,32 @@ Group Members (in alphabetical order)
 
 <img src="https://github.com/cruelkratos/ChainSeek/raw/main/design.png" alt="ChainSeek Design">
 
+##  Contracts & Deployment Information
+
+### 1️⃣ **Data.sol**  
+- **Contract Address:** [`0x03438c46B230995395e0Ec191FD41598479a1fC8`](https://sepolia.etherscan.io/address/0x03438c46B230995395e0Ec191FD41598479a1fC8)  
+- **Transaction Hash:** [`0x9579f7fbdd74c1239d324d910f2d1eac3f356cbfb850c108862cf309295c17f9`](https://sepolia.etherscan.io/tx/0x9579f7fbdd74c1239d324d910f2d1eac3f356cbfb850c108862cf309295c17f9)
+
+---
+
+### 2️⃣ **Premium.sol**  
+- **Contract Address:** [`0xFD23eB42CC59Cd21c7A7bbBfDE195CfFb5A5f3cA`](https://sepolia.etherscan.io/address/0xFD23eB42CC59Cd21c7A7bbBfDE195CfFb5A5f3cA)  
+- **Transaction Hash:** [`0x02f5dd8927aa67ab7beb11b7c1733127d912d7ecb4b9cf5cf75b8ad54fb290ff`](https://sepolia.etherscan.io/tx/0x02f5dd8927aa67ab7beb11b7c1733127d912d7ecb4b9cf5cf75b8ad54fb290ff)
+
+---
+
+### 3️⃣ **Payout.sol**  
+- **Contract Address:** [`0xBBa0aC4FBd17fF340FF32A8Ea7E53Ba1606b503c`](https://sepolia.etherscan.io/address/0xBBa0aC4FBd17fF340FF32A8Ea7E53Ba1606b503c)  
+- **Transaction Hash:** [`0xa380df65aeed6488aa9499deeec22fdeb238e5301be09fded9ac13e092bd07dd`](https://sepolia.etherscan.io/tx/0xa380df65aeed6488aa9499deeec22fdeb238e5301be09fded9ac13e092bd07dd)
+
+---
+
+## 🌐 **Network:**  
+- **Testnet:** Sepolia  
+- **Blockchain Explorer:** [Sepolia Etherscan](https://sepolia.etherscan.io/)
+
+---
+
 # Requirements
 - Nodejs 
 - Python (3.10)
