@@ -14,6 +14,8 @@ Group Members (in alphabetical order)
 | 3.    | Kunal Bansal     | fr092          |
 | 4.    | Mmukul Khedekar  | fooker         |
 
+# System Design
+
 <img src="https://github.com/cruelkratos/ChainSeek/raw/main/design.png" alt="ChainSeek Design">
 
 # Requirements
