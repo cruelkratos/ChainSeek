@@ -25,8 +25,8 @@ const faqs = [
       "We assess vulnerabilities like reentrancy attacks, integer overflows/underflows, access control issues, and other known exploit patterns.",
   },
   {
-    question : "What happens if the insured contract is exploited?",
-    answer : "If our on-chain monitoring detects a failure or exploit, the coverage amount will be automatically sent to the insured party after verification."
+    question: "What happens if the insured contract is exploited?",
+    answer: "If our on-chain monitoring detects a failure or exploit, the coverage amount will be automatically sent to the insured party after verification."
   }
 ]
 
@@ -42,7 +42,7 @@ const FAQ = () => {
           {faqs.map((faq, index) => (
             <div key={index} className="border border-white/10 rounded-lg overflow-hidden">
               <button
-                className="w-full flex items-center justify-between p-4 text-left bg-card hover:bg-muted transition-colors"
+                className="w-full flex items-center justify-between p-4 text-left bg-card hover:purple transition-colors purple-gradient"
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
               >
                 <span className="text-lg font-medium text-white">{faq.question}</span>

@@ -1,23 +1,8 @@
 {
-  "name": "contractinsurance",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "npx hardhat run index.js --network localhost"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gaud4/ContractInsurance.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/gaud4/ContractInsurance/issues"
-  },
-  "homepage": "https://github.com/gaud4/ContractInsurance#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "hardhat": "^2.22.18",

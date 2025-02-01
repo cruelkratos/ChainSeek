@@ -4,7 +4,8 @@
 
 :root {
   --background: 0 0 0;
-  --foreground: 255 255 255;
+  --foreground: 0 0 255;
+  /*changes have been made here ^^^ 255 255 255*/
   --card: 17 17 22;
   --card-foreground: 255 255 255;
   --popover: 17 17 22;
@@ -19,7 +20,8 @@
   --accent-foreground: 0 0 0;
   --destructive: 255 69 58;
   --destructive-foreground: 255 255 255;
-  --border: 30 30 35;
+  --border: 270 50% 30%;
+  /* Purple - hue saturation lightness */
   --input: 30 30 35;
   --ring: 149 128 255;
 }
@@ -42,4 +44,3 @@ body {
 .glow-effect {
   box-shadow: 0 0 20px rgba(149, 128, 255, 0.2);
 }
-

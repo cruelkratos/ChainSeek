@@ -6,9 +6,9 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-6 relative">
         <div className="flex flex-col items-center text-center">
           <div className="inline-flex items-center space-x-2 bg-white/5 border border-white/10 px-4 py-2 rounded-full mb-8">
-            <span className="text-primary">Version 2.0 is here</span>
+            <span className="text-primary">AI Backed Decentralised Smart Contract Insurance!</span>
             <span className="text-white/50">•</span>
-            <a href="#" className="text-white/70 hover:text-white transition-colors group">
+            <a href="/features" className="text-white/70 hover:text-white transition-colors group">
               Read More
               <ArrowRight className="inline-block ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
@@ -30,9 +30,11 @@ const Hero = () => {
               Get started
             </button>
             </Link>
+            <Link href="/features">
             <button className="bg-white/5 hover:bg-white/10 text-white px-8 py-3 rounded-md font-medium border border-white/10 transition-colors">
               Learn more
             </button>
+            </Link>
           </div>
         </div>
       </div>
