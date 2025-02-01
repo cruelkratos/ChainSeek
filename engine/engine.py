@@ -22,12 +22,12 @@ class Model(nn.Module):
 
         for i in range(self.num_models):
             model = transformers.AutoModelForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=2)
-            # state_dict = torch.load(f'trained/model_{i}.pth', map_location=torch.device(self.device))
-            # new_state_dict = {}
-            # for k, v in state_dict.items():
-            #     new_key = k[7:] if k.startswith('module.') else k  # Remove 'module.' prefix if it exists
-            #     new_state_dict[new_key] = v
-            # model.load_state_dict(new_state_dict)
+            state_dict = torch.load(f'trained/model_{i}.pth', map_location=torch.device(self.device))
+            new_state_dict = {}
+            for k, v in state_dict.items():
+                new_key = k[7:] if k.startswith('module.') else k  # Remove 'module.' prefix if it exists
+                new_state_dict[new_key] = v
+            model.load_state_dict(new_state_dict)
             model.to(self.device)
             self.models.append(model)
 
